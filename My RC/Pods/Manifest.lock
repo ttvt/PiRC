@@ -1,0 +1,28 @@
+PODS:
+  - CDJoystick (1.1.0)
+  - LMGaugeViewSwift (1.0.0)
+  - MJPEGStreamLib (0.2.1)
+  - Starscream (4.0.4)
+
+DEPENDENCIES:
+  - CDJoystick
+  - LMGaugeViewSwift
+  - MJPEGStreamLib
+  - Starscream
+
+SPEC REPOS:
+  trunk:
+    - CDJoystick
+    - LMGaugeViewSwift
+    - MJPEGStreamLib
+    - Starscream
+
+SPEC CHECKSUMS:
+  CDJoystick: 5563edf7dbc276cfec6f4606ee2a5b63ee54a15e
+  LMGaugeViewSwift: 049e8550417b3b00c67f396103c52fb3730550bf
+  MJPEGStreamLib: 516e82b6bcd93cac6d671a37052a15908502e6c5
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+
+PODFILE CHECKSUM: 55907733c0fd8bac1c3cd5c7d3e60a82e0aa11a4
+
+COCOAPODS: 1.11.3

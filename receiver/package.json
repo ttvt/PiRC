@@ -1,0 +1,24 @@
+{
+  "name": "receiver",
+  "version": "1.0.0",
+  "description": "This is receiver running on my Pi",
+  "main": "index.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/magnetvn/receiver.git"
+  },
+  "author": "Viet Tien",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/magnetvn/receiver#readme",
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "*",
+    "dotenv": "*",
+    "express": "*",
+    "express-ws": "*",
+    "node-wiring-pi": "*",
+    "pigpio": "*"
+  }
+}

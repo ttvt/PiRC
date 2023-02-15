@@ -1,0 +1,1231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C9C2E54995B3BEA1C999016833A58B /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 019E5C551899517C2B88219F45A14157 /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046AC7AA224C78A31C0A8FACB11D2D28 /* StringHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748C89DF31F59068356DBA12CDE5D54A /* StringHTTPHandler.swift */; };
+		0BE94AF91F46755E295765A0A2CB3904 /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89E35083C00C0F01E3546623BF2188 /* GaugeView.swift */; };
+		1CE032EA7AF466B042F5112F663DCF68 /* LMGaugeViewSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC98E127B51A607B580F75AEBFC20CB /* LMGaugeViewSwift-dummy.m */; };
+		285A26D1903EA0EC83AD3626D55D4542 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		33C71989B6C635864EC5E4862AFAAE8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3A655D6817E99F062266BB601B0EEEDF /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 917539EF7A9B79B49747B4F850EC487F /* Starscream-dummy.m */; };
+		3F3E9C6FF4BCB6F4FF18D9121CC3E42F /* WebSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F70DC0B0618605B6B37FF89C0CA449 /* WebSocketServer.swift */; };
+		489EF4A7D4992C47CF590AEF9AA418FC /* FoundationTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16E6DEF3478F135985D0DA6FD0CA10 /* FoundationTransport.swift */; };
+		4A3B1BE129FDA231AC217E1C6DB2B8C8 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F78E8785024885818F77731E308D54 /* Transport.swift */; };
+		4AB6FCF35B998F60ED9EB100542EEA31 /* FoundationHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA1F3D7BF35467D9EA47C0F395B64E7 /* FoundationHTTPHandler.swift */; };
+		5006DD4B60A05AF56EA0706A680BABF6 /* FoundationHTTPServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91FBAB44E625A02F5FF93B1F72F300 /* FoundationHTTPServerHandler.swift */; };
+		5281197FE8CC6E6954315F11B8F553D0 /* FoundationSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E411419190D997D406888A05112AB26 /* FoundationSecurity.swift */; };
+		58561C759504D80005AD885E12BC33CF /* LMGaugeViewSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 596CF697472ADF0087E5548C6EB063A1 /* LMGaugeViewSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		631654C419F62FE0270E1DF79CCF6F8B /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482A49F51AEAC0F775A28AFF0DA73B1B /* Data+Extensions.swift */; };
+		69A591F2BDE4941B391C102F4C26B115 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53EC5D6260207FB6E59A58BF7DE949B /* Security.swift */; };
+		69B9665A24A4B3952EDF098A768800DB /* Pods-My RC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B81D2CA006BD1864D0C89BA4B305953 /* Pods-My RC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C0DACBE00A34619DEDB9A65CB959BA5 /* TCPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FAB3CEA96682395B376DB6163438E /* TCPTransport.swift */; };
+		7384331684D0E79CF53F03A0251A476D /* MJPEGStreamLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDADEDFE58C60348D17785878CF2452 /* MJPEGStreamLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73CC76685864ECC1EBF206B8628BE109 /* MJPEGStreamLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEF0F2A064B2AF19239AEEA8295810 /* MJPEGStreamLib.swift */; };
+		7D997DC2D1A2C58818B8AF82A41012DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7DDEA2F73F2A02D88D5164B46BA2C7E8 /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAC755903465F31A31F387AD47362BC /* HTTPHandler.swift */; };
+		859BBEBC7986C6F4C95F06746B146558 /* MJPEGStreamLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCDB0660DF8683B6894797167FE3CFA /* MJPEGStreamLib-dummy.m */; };
+		8A4A2C2515CDA4924F16346B2352CD62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B44349C69B2C0AF407B678B20DC9CB80 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A27C52EE8C2BF0463701BF4636B16 /* WebSocket.swift */; };
+		BB056B9351B1BE41C2703393F69623DD /* WSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0605C96D2F772E451D5263A5FD2F4C8B /* WSEngine.swift */; };
+		C28A0006DD1C9AB062763C8FA2B3F93D /* NativeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0021060EA76AFB258F371BA505BF1080 /* NativeEngine.swift */; };
+		C824E767D2375DB70192992E8233998A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CC235941F0CF9FA8C0FA3323A0D18203 /* Framer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F2DE76D5518C1C8C1BB4499E502929 /* Framer.swift */; };
+		DF9BE4B3E95B007977780C9EFDA3EFBE /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124708D74BB377ABBBA861095715A6D8 /* Server.swift */; };
+		DFA2736CE4B16FD4D82450863EC58507 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431FF1E7B8F40C89EA71DF24DE4E44C5 /* Compression.swift */; };
+		EB5C3537AD21658D3EC873A4A4AFDE30 /* FrameCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F1630D7AF1852829E61B5B5A3151F9 /* FrameCollector.swift */; };
+		F558ED3638FE1B856D1101FB00DD28B7 /* Pods-My RC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B11E0F1CB49228728EF7DF6B750F3FA3 /* Pods-My RC-dummy.m */; };
+		F8D4BBAB8F6D9353BBF2AEA735D8D288 /* CDJoystick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94F781F415FA1C4934AC86031DB6EAF0 /* CDJoystick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA2A3CCAE01CF0108D2FDB7C8108B988 /* WSCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BE47A19664500F71B57E28BDEAD079 /* WSCompression.swift */; };
+		FAFD54F649DC5D69DD05D517A0131968 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D487452BE4C65E14D201DAA73BA953C4 /* Engine.swift */; };
+		FCC88E9A71D838BCD74E75A6D66C03BF /* CDJoystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D790F03D32B2282DCB61E6A966B3F9F /* CDJoystick.swift */; };
+		FECF801B2F5993C20AF71CE3D3D1F488 /* CDJoystick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0600A83F96AAE34DD6FD3CAC2FD53E69 /* CDJoystick-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5839089A5D7F77BA952D23EEC33C6301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 731F99B1CEA7FFDEF9365D619476502A;
+			remoteInfo = MJPEGStreamLib;
+		};
+		76EB14D80B022C0534DB3690F328973E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		81FA1E986CF747EDA48A3D46FA86A902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D06EDE60A4BBB0787EF755AE979C4E;
+			remoteInfo = LMGaugeViewSwift;
+		};
+		BDFEBCDB966CC9AED9912236DC0ACEF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 500F9357C2C959E2A859291B64320554;
+			remoteInfo = CDJoystick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0021060EA76AFB258F371BA505BF1080 /* NativeEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeEngine.swift; path = Sources/Engine/NativeEngine.swift; sourceTree = "<group>"; };
+		019E5C551899517C2B88219F45A14157 /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		0600A83F96AAE34DD6FD3CAC2FD53E69 /* CDJoystick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDJoystick-dummy.m"; sourceTree = "<group>"; };
+		0605C96D2F772E451D5263A5FD2F4C8B /* WSEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSEngine.swift; path = Sources/Engine/WSEngine.swift; sourceTree = "<group>"; };
+		0878EE4AA864804F0DDC6C8D24C02E7A /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
+		124708D74BB377ABBBA861095715A6D8 /* Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Server.swift; path = Sources/Server/Server.swift; sourceTree = "<group>"; };
+		186BAB931899A3042030707A0DD455CF /* CDJoystick */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDJoystick; path = CDJoystick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		195C39BE8108999D12B2ADE23B1B58A2 /* LMGaugeViewSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LMGaugeViewSwift.debug.xcconfig; sourceTree = "<group>"; };
+		1F16E6DEF3478F135985D0DA6FD0CA10 /* FoundationTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationTransport.swift; path = Sources/Transport/FoundationTransport.swift; sourceTree = "<group>"; };
+		23641BE9A040A0162BA1EAB4CB1E9368 /* Starscream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.release.xcconfig; sourceTree = "<group>"; };
+		23A1241D7D1E1606CEF5607D7999A944 /* MJPEGStreamLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJPEGStreamLib; path = MJPEGStreamLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25786F63DAFB36FEE16EF7734CA9D179 /* MJPEGStreamLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJPEGStreamLib.release.xcconfig; sourceTree = "<group>"; };
+		2C89E35083C00C0F01E3546623BF2188 /* GaugeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GaugeView.swift; path = LMGaugeViewSwift/Classes/GaugeView.swift; sourceTree = "<group>"; };
+		30F78E8785024885818F77731E308D54 /* Transport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transport.swift; path = Sources/Transport/Transport.swift; sourceTree = "<group>"; };
+		3DA752689987CF47438F972E469F7B33 /* CDJoystick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDJoystick-prefix.pch"; sourceTree = "<group>"; };
+		431FF1E7B8F40C89EA71DF24DE4E44C5 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Compression/Compression.swift; sourceTree = "<group>"; };
+		453A27C52EE8C2BF0463701BF4636B16 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
+		46FE048DD07655F47E303F653983FAF4 /* MJPEGStreamLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJPEGStreamLib.modulemap; sourceTree = "<group>"; };
+		482A49F51AEAC0F775A28AFF0DA73B1B /* Data+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extensions.swift"; path = "Sources/DataBytes/Data+Extensions.swift"; sourceTree = "<group>"; };
+		4F35E4D423F13BDF05760EB3565F708B /* CDJoystick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CDJoystick.modulemap; sourceTree = "<group>"; };
+		526F2285E5F9F692B659A2365BCC17E1 /* Starscream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.debug.xcconfig; sourceTree = "<group>"; };
+		544B9A2F602C76E5C872A3094FC82575 /* LMGaugeViewSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LMGaugeViewSwift-Info.plist"; sourceTree = "<group>"; };
+		545F30EDE73C3082ABEFCA3B58952CA0 /* Pods-My RC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-My RC.debug.xcconfig"; sourceTree = "<group>"; };
+		596CF697472ADF0087E5548C6EB063A1 /* LMGaugeViewSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMGaugeViewSwift-umbrella.h"; sourceTree = "<group>"; };
+		5B81D2CA006BD1864D0C89BA4B305953 /* Pods-My RC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-My RC-umbrella.h"; sourceTree = "<group>"; };
+		5D790F03D32B2282DCB61E6A966B3F9F /* CDJoystick.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CDJoystick.swift; sourceTree = "<group>"; };
+		5EAC755903465F31A31F387AD47362BC /* HTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHandler.swift; path = Sources/Framer/HTTPHandler.swift; sourceTree = "<group>"; };
+		63BE47A19664500F71B57E28BDEAD079 /* WSCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSCompression.swift; path = Sources/Compression/WSCompression.swift; sourceTree = "<group>"; };
+		65F1630D7AF1852829E61B5B5A3151F9 /* FrameCollector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameCollector.swift; path = Sources/Framer/FrameCollector.swift; sourceTree = "<group>"; };
+		65F2DE76D5518C1C8C1BB4499E502929 /* Framer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Framer.swift; path = Sources/Framer/Framer.swift; sourceTree = "<group>"; };
+		705315C084B8D550B6A316603EBF7D23 /* Pods-My RC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-My RC"; path = Pods_My_RC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73F3F543413CBFBA3A2C06998670DD5C /* LMGaugeViewSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMGaugeViewSwift; path = LMGaugeViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		748C89DF31F59068356DBA12CDE5D54A /* StringHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringHTTPHandler.swift; path = Sources/Framer/StringHTTPHandler.swift; sourceTree = "<group>"; };
+		76CDF32E9262B4D9A8650BC6850A67EE /* LMGaugeViewSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LMGaugeViewSwift.modulemap; sourceTree = "<group>"; };
+		7859F1E676A4C614FC72887C73035512 /* Pods-My RC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-My RC-acknowledgements.plist"; sourceTree = "<group>"; };
+		78B144B488CE9B856D8B91F50540FAFF /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		7CF5EF2A5E75A5EE8C26D7224A0D83BF /* LMGaugeViewSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LMGaugeViewSwift.release.xcconfig; sourceTree = "<group>"; };
+		7D91FBAB44E625A02F5FF93B1F72F300 /* FoundationHTTPServerHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPServerHandler.swift; path = Sources/Framer/FoundationHTTPServerHandler.swift; sourceTree = "<group>"; };
+		7FA1F3D7BF35467D9EA47C0F395B64E7 /* FoundationHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPHandler.swift; path = Sources/Framer/FoundationHTTPHandler.swift; sourceTree = "<group>"; };
+		7FC98E127B51A607B580F75AEBFC20CB /* LMGaugeViewSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LMGaugeViewSwift-dummy.m"; sourceTree = "<group>"; };
+		83AAC43A30B48B59E884E61D9BD161F0 /* MJPEGStreamLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJPEGStreamLib-prefix.pch"; sourceTree = "<group>"; };
+		891B2270823847ED23F2ECFC28F935EC /* Starscream */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E61CC65279611E74313E23B0E50BEAB /* Pods-My RC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-My RC-Info.plist"; sourceTree = "<group>"; };
+		917539EF7A9B79B49747B4F850EC487F /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		94F781F415FA1C4934AC86031DB6EAF0 /* CDJoystick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDJoystick-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E411419190D997D406888A05112AB26 /* FoundationSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationSecurity.swift; path = Sources/Security/FoundationSecurity.swift; sourceTree = "<group>"; };
+		9F3C8015C73777663A8CFEF122D8C366 /* CDJoystick-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CDJoystick-Info.plist"; sourceTree = "<group>"; };
+		A403D369935DA090978650D3BD31AE86 /* Pods-My RC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-My RC-frameworks.sh"; sourceTree = "<group>"; };
+		A42FAB3CEA96682395B376DB6163438E /* TCPTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPTransport.swift; path = Sources/Transport/TCPTransport.swift; sourceTree = "<group>"; };
+		A53EC5D6260207FB6E59A58BF7DE949B /* Security.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Security.swift; path = Sources/Security/Security.swift; sourceTree = "<group>"; };
+		B11E0F1CB49228728EF7DF6B750F3FA3 /* Pods-My RC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-My RC-dummy.m"; sourceTree = "<group>"; };
+		B94F8DCC6C27AA95AFDBE705114D9145 /* Pods-My RC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-My RC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9A722D1AA51881DCDA31E995E1EE15C /* LMGaugeViewSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMGaugeViewSwift-prefix.pch"; sourceTree = "<group>"; };
+		C7457087F11827CC608B2488FF7509FE /* CDJoystick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDJoystick.release.xcconfig; sourceTree = "<group>"; };
+		C9B8C4805F612C9D1BD62DCDC9422C29 /* Pods-My RC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-My RC.release.xcconfig"; sourceTree = "<group>"; };
+		C9F70DC0B0618605B6B37FF89C0CA449 /* WebSocketServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketServer.swift; path = Sources/Server/WebSocketServer.swift; sourceTree = "<group>"; };
+		CEA059F6A775D09413B592616F4DF4EC /* Pods-My RC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-My RC.modulemap"; sourceTree = "<group>"; };
+		D28B7BE00464580DFCD1AFFA9BE194D4 /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
+		D487452BE4C65E14D201DAA73BA953C4 /* Engine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Engine.swift; path = Sources/Engine/Engine.swift; sourceTree = "<group>"; };
+		DCDADEDFE58C60348D17785878CF2452 /* MJPEGStreamLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJPEGStreamLib-umbrella.h"; sourceTree = "<group>"; };
+		EA001ADB976D660521B622AC559E50AA /* CDJoystick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDJoystick.debug.xcconfig; sourceTree = "<group>"; };
+		EAAC149F5ECE73E0D9AE605CD8EB5083 /* MJPEGStreamLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJPEGStreamLib-Info.plist"; sourceTree = "<group>"; };
+		F07CF7AFE4EB5C5EF977E63E560A6770 /* MJPEGStreamLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJPEGStreamLib.debug.xcconfig; sourceTree = "<group>"; };
+		F2BEF0F2A064B2AF19239AEEA8295810 /* MJPEGStreamLib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MJPEGStreamLib.swift; path = MJPEGStreamLib/Classes/MJPEGStreamLib.swift; sourceTree = "<group>"; };
+		FDCDB0660DF8683B6894797167FE3CFA /* MJPEGStreamLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJPEGStreamLib-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22579CC44F871C4C542FC182B991B33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C71989B6C635864EC5E4862AFAAE8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE572C307E66CB0E202C8CE7A6C3483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4A2C2515CDA4924F16346B2352CD62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F0C008A774ECEAC75B1A769C9E6C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C824E767D2375DB70192992E8233998A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F3E2194F94CE5F94EBCFF167D9384A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D997DC2D1A2C58818B8AF82A41012DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBD6DF1539799C813E318822713DCD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285A26D1903EA0EC83AD3626D55D4542 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D745609F6177A25D14E6492754A31B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76CDF32E9262B4D9A8650BC6850A67EE /* LMGaugeViewSwift.modulemap */,
+				7FC98E127B51A607B580F75AEBFC20CB /* LMGaugeViewSwift-dummy.m */,
+				544B9A2F602C76E5C872A3094FC82575 /* LMGaugeViewSwift-Info.plist */,
+				B9A722D1AA51881DCDA31E995E1EE15C /* LMGaugeViewSwift-prefix.pch */,
+				596CF697472ADF0087E5548C6EB063A1 /* LMGaugeViewSwift-umbrella.h */,
+				195C39BE8108999D12B2ADE23B1B58A2 /* LMGaugeViewSwift.debug.xcconfig */,
+				7CF5EF2A5E75A5EE8C26D7224A0D83BF /* LMGaugeViewSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LMGaugeViewSwift";
+			sourceTree = "<group>";
+		};
+		248B5C34629FD44D1BF92632E012D96B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D943106F8E1B53705CD23F899111BAFD /* Pods-My RC */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3450101FCA866469A698BE06A2B843CD /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				431FF1E7B8F40C89EA71DF24DE4E44C5 /* Compression.swift */,
+				482A49F51AEAC0F775A28AFF0DA73B1B /* Data+Extensions.swift */,
+				D487452BE4C65E14D201DAA73BA953C4 /* Engine.swift */,
+				7FA1F3D7BF35467D9EA47C0F395B64E7 /* FoundationHTTPHandler.swift */,
+				7D91FBAB44E625A02F5FF93B1F72F300 /* FoundationHTTPServerHandler.swift */,
+				9E411419190D997D406888A05112AB26 /* FoundationSecurity.swift */,
+				1F16E6DEF3478F135985D0DA6FD0CA10 /* FoundationTransport.swift */,
+				65F1630D7AF1852829E61B5B5A3151F9 /* FrameCollector.swift */,
+				65F2DE76D5518C1C8C1BB4499E502929 /* Framer.swift */,
+				5EAC755903465F31A31F387AD47362BC /* HTTPHandler.swift */,
+				0021060EA76AFB258F371BA505BF1080 /* NativeEngine.swift */,
+				A53EC5D6260207FB6E59A58BF7DE949B /* Security.swift */,
+				124708D74BB377ABBBA861095715A6D8 /* Server.swift */,
+				748C89DF31F59068356DBA12CDE5D54A /* StringHTTPHandler.swift */,
+				A42FAB3CEA96682395B376DB6163438E /* TCPTransport.swift */,
+				30F78E8785024885818F77731E308D54 /* Transport.swift */,
+				453A27C52EE8C2BF0463701BF4636B16 /* WebSocket.swift */,
+				C9F70DC0B0618605B6B37FF89C0CA449 /* WebSocketServer.swift */,
+				63BE47A19664500F71B57E28BDEAD079 /* WSCompression.swift */,
+				0605C96D2F772E451D5263A5FD2F4C8B /* WSEngine.swift */,
+				61AB920A54136C0157648D5834598DC2 /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		4F468A1D217028728B8B698194D672C2 /* LMGaugeViewSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2C89E35083C00C0F01E3546623BF2188 /* GaugeView.swift */,
+				1D745609F6177A25D14E6492754A31B8 /* Support Files */,
+			);
+			name = LMGaugeViewSwift;
+			path = LMGaugeViewSwift;
+			sourceTree = "<group>";
+		};
+		5673FFE0C698667F24F2DBCD228AF40A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F35E4D423F13BDF05760EB3565F708B /* CDJoystick.modulemap */,
+				0600A83F96AAE34DD6FD3CAC2FD53E69 /* CDJoystick-dummy.m */,
+				9F3C8015C73777663A8CFEF122D8C366 /* CDJoystick-Info.plist */,
+				3DA752689987CF47438F972E469F7B33 /* CDJoystick-prefix.pch */,
+				94F781F415FA1C4934AC86031DB6EAF0 /* CDJoystick-umbrella.h */,
+				EA001ADB976D660521B622AC559E50AA /* CDJoystick.debug.xcconfig */,
+				C7457087F11827CC608B2488FF7509FE /* CDJoystick.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CDJoystick";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61AB920A54136C0157648D5834598DC2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0878EE4AA864804F0DDC6C8D24C02E7A /* Starscream.modulemap */,
+				917539EF7A9B79B49747B4F850EC487F /* Starscream-dummy.m */,
+				D28B7BE00464580DFCD1AFFA9BE194D4 /* Starscream-Info.plist */,
+				78B144B488CE9B856D8B91F50540FAFF /* Starscream-prefix.pch */,
+				019E5C551899517C2B88219F45A14157 /* Starscream-umbrella.h */,
+				526F2285E5F9F692B659A2365BCC17E1 /* Starscream.debug.xcconfig */,
+				23641BE9A040A0162BA1EAB4CB1E9368 /* Starscream.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+		6741BF4F0F318CBFC163DB5930A1DF89 /* CDJoystick */ = {
+			isa = PBXGroup;
+			children = (
+				5D790F03D32B2282DCB61E6A966B3F9F /* CDJoystick.swift */,
+				5673FFE0C698667F24F2DBCD228AF40A /* Support Files */,
+			);
+			name = CDJoystick;
+			path = CDJoystick;
+			sourceTree = "<group>";
+		};
+		C29A0B9DA32937022A36B1449071E8A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46FE048DD07655F47E303F653983FAF4 /* MJPEGStreamLib.modulemap */,
+				FDCDB0660DF8683B6894797167FE3CFA /* MJPEGStreamLib-dummy.m */,
+				EAAC149F5ECE73E0D9AE605CD8EB5083 /* MJPEGStreamLib-Info.plist */,
+				83AAC43A30B48B59E884E61D9BD161F0 /* MJPEGStreamLib-prefix.pch */,
+				DCDADEDFE58C60348D17785878CF2452 /* MJPEGStreamLib-umbrella.h */,
+				F07CF7AFE4EB5C5EF977E63E560A6770 /* MJPEGStreamLib.debug.xcconfig */,
+				25786F63DAFB36FEE16EF7734CA9D179 /* MJPEGStreamLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJPEGStreamLib";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EB4CB225FC35308853000005D529F8AB /* Pods */,
+				F4C74A6AB74F703A86FBD33A7ACEFCCF /* Products */,
+				248B5C34629FD44D1BF92632E012D96B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF57C90F9934628C9AD24CAB2DA40AF4 /* MJPEGStreamLib */ = {
+			isa = PBXGroup;
+			children = (
+				F2BEF0F2A064B2AF19239AEEA8295810 /* MJPEGStreamLib.swift */,
+				C29A0B9DA32937022A36B1449071E8A3 /* Support Files */,
+			);
+			name = MJPEGStreamLib;
+			path = MJPEGStreamLib;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D943106F8E1B53705CD23F899111BAFD /* Pods-My RC */ = {
+			isa = PBXGroup;
+			children = (
+				CEA059F6A775D09413B592616F4DF4EC /* Pods-My RC.modulemap */,
+				B94F8DCC6C27AA95AFDBE705114D9145 /* Pods-My RC-acknowledgements.markdown */,
+				7859F1E676A4C614FC72887C73035512 /* Pods-My RC-acknowledgements.plist */,
+				B11E0F1CB49228728EF7DF6B750F3FA3 /* Pods-My RC-dummy.m */,
+				A403D369935DA090978650D3BD31AE86 /* Pods-My RC-frameworks.sh */,
+				8E61CC65279611E74313E23B0E50BEAB /* Pods-My RC-Info.plist */,
+				5B81D2CA006BD1864D0C89BA4B305953 /* Pods-My RC-umbrella.h */,
+				545F30EDE73C3082ABEFCA3B58952CA0 /* Pods-My RC.debug.xcconfig */,
+				C9B8C4805F612C9D1BD62DCDC9422C29 /* Pods-My RC.release.xcconfig */,
+			);
+			name = "Pods-My RC";
+			path = "Target Support Files/Pods-My RC";
+			sourceTree = "<group>";
+		};
+		EB4CB225FC35308853000005D529F8AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6741BF4F0F318CBFC163DB5930A1DF89 /* CDJoystick */,
+				4F468A1D217028728B8B698194D672C2 /* LMGaugeViewSwift */,
+				CF57C90F9934628C9AD24CAB2DA40AF4 /* MJPEGStreamLib */,
+				3450101FCA866469A698BE06A2B843CD /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4C74A6AB74F703A86FBD33A7ACEFCCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186BAB931899A3042030707A0DD455CF /* CDJoystick */,
+				73F3F543413CBFBA3A2C06998670DD5C /* LMGaugeViewSwift */,
+				23A1241D7D1E1606CEF5607D7999A944 /* MJPEGStreamLib */,
+				705315C084B8D550B6A316603EBF7D23 /* Pods-My RC */,
+				891B2270823847ED23F2ECFC28F935EC /* Starscream */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CBD0F9C48772E87C2F80436B70E099E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C9C2E54995B3BEA1C999016833A58B /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D29CBB2BD65085B902B161E0B75543A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7384331684D0E79CF53F03A0251A476D /* MJPEGStreamLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9327B0B5C796C9F00F2E9BDBCBF333 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D4BBAB8F6D9353BBF2AEA735D8D288 /* CDJoystick-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F59589E2A86ECA6FBCBB814C3F27DE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58561C759504D80005AD885E12BC33CF /* LMGaugeViewSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A71E8DE0FA63C5DDC4062F93BD8B3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B9665A24A4B3952EDF098A768800DB /* Pods-My RC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		500F9357C2C959E2A859291B64320554 /* CDJoystick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41C277AF9F4423091DD9F5D3E7ACADB /* Build configuration list for PBXNativeTarget "CDJoystick" */;
+			buildPhases = (
+				8A9327B0B5C796C9F00F2E9BDBCBF333 /* Headers */,
+				2C1902DB377A694725AB04D3115A662F /* Sources */,
+				EFBD6DF1539799C813E318822713DCD9 /* Frameworks */,
+				3127FA3CFA9AFCDD2F0C41266267FC32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDJoystick;
+			productName = CDJoystick;
+			productReference = 186BAB931899A3042030707A0DD455CF /* CDJoystick */;
+			productType = "com.apple.product-type.framework";
+		};
+		731F99B1CEA7FFDEF9365D619476502A /* MJPEGStreamLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93CF2754778186035CFF8B1FC7545F5C /* Build configuration list for PBXNativeTarget "MJPEGStreamLib" */;
+			buildPhases = (
+				4D29CBB2BD65085B902B161E0B75543A /* Headers */,
+				BBB400D12C7F4A1C133ADAA8A59A4A58 /* Sources */,
+				C7F0C008A774ECEAC75B1A769C9E6C23 /* Frameworks */,
+				072920B22FBADBEBD9AAA313D99FE3AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJPEGStreamLib;
+			productName = MJPEGStreamLib;
+			productReference = 23A1241D7D1E1606CEF5607D7999A944 /* MJPEGStreamLib */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E342B11DDD91D2A8D5CEC382A58F29D /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				3CBD0F9C48772E87C2F80436B70E099E /* Headers */,
+				3CBD844312542615DF274F62D22D823A /* Sources */,
+				22579CC44F871C4C542FC182B991B33C /* Frameworks */,
+				6D93F8ECBEC0B1B601F31CAB9D03FAA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6D06EDE60A4BBB0787EF755AE979C4E /* LMGaugeViewSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7F9D8CC87D00507312C15381164A60 /* Build configuration list for PBXNativeTarget "LMGaugeViewSwift" */;
+			buildPhases = (
+				9F59589E2A86ECA6FBCBB814C3F27DE1 /* Headers */,
+				306129140938EE745B79AC5298F9B302 /* Sources */,
+				5AE572C307E66CB0E202C8CE7A6C3483 /* Frameworks */,
+				6BAE9FE480F9E573039CFDE7036E36DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMGaugeViewSwift;
+			productName = LMGaugeViewSwift;
+			productReference = 73F3F543413CBFBA3A2C06998670DD5C /* LMGaugeViewSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6E8107857F284D407851F4796E19F4A /* Pods-My RC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D07BEEA4F7118071AE0833D09179419 /* Build configuration list for PBXNativeTarget "Pods-My RC" */;
+			buildPhases = (
+				F4A71E8DE0FA63C5DDC4062F93BD8B3D /* Headers */,
+				D834DE9E54E6D8D6989DBCF2866DEF71 /* Sources */,
+				E1F3E2194F94CE5F94EBCFF167D9384A /* Frameworks */,
+				500E16292181EAEF498467E7EA15F39D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B504CAFB6FE150C2423326707079B0B3 /* PBXTargetDependency */,
+				098ECD366BF8A7FE92ABA0CE2478F1A1 /* PBXTargetDependency */,
+				18985B301EA4AB4EF5609DFD1F6FAD71 /* PBXTargetDependency */,
+				BFB0B87E00D27B02E6B77E18A5CF9627 /* PBXTargetDependency */,
+			);
+			name = "Pods-My RC";
+			productName = Pods_My_RC;
+			productReference = 705315C084B8D550B6A316603EBF7D23 /* Pods-My RC */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F4C74A6AB74F703A86FBD33A7ACEFCCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				500F9357C2C959E2A859291B64320554 /* CDJoystick */,
+				B6D06EDE60A4BBB0787EF755AE979C4E /* LMGaugeViewSwift */,
+				731F99B1CEA7FFDEF9365D619476502A /* MJPEGStreamLib */,
+				C6E8107857F284D407851F4796E19F4A /* Pods-My RC */,
+				9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		072920B22FBADBEBD9AAA313D99FE3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3127FA3CFA9AFCDD2F0C41266267FC32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500E16292181EAEF498467E7EA15F39D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BAE9FE480F9E573039CFDE7036E36DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D93F8ECBEC0B1B601F31CAB9D03FAA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C1902DB377A694725AB04D3115A662F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC88E9A71D838BCD74E75A6D66C03BF /* CDJoystick.swift in Sources */,
+				FECF801B2F5993C20AF71CE3D3D1F488 /* CDJoystick-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306129140938EE745B79AC5298F9B302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE94AF91F46755E295765A0A2CB3904 /* GaugeView.swift in Sources */,
+				1CE032EA7AF466B042F5112F663DCF68 /* LMGaugeViewSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBD844312542615DF274F62D22D823A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA2736CE4B16FD4D82450863EC58507 /* Compression.swift in Sources */,
+				631654C419F62FE0270E1DF79CCF6F8B /* Data+Extensions.swift in Sources */,
+				FAFD54F649DC5D69DD05D517A0131968 /* Engine.swift in Sources */,
+				4AB6FCF35B998F60ED9EB100542EEA31 /* FoundationHTTPHandler.swift in Sources */,
+				5006DD4B60A05AF56EA0706A680BABF6 /* FoundationHTTPServerHandler.swift in Sources */,
+				5281197FE8CC6E6954315F11B8F553D0 /* FoundationSecurity.swift in Sources */,
+				489EF4A7D4992C47CF590AEF9AA418FC /* FoundationTransport.swift in Sources */,
+				EB5C3537AD21658D3EC873A4A4AFDE30 /* FrameCollector.swift in Sources */,
+				CC235941F0CF9FA8C0FA3323A0D18203 /* Framer.swift in Sources */,
+				7DDEA2F73F2A02D88D5164B46BA2C7E8 /* HTTPHandler.swift in Sources */,
+				C28A0006DD1C9AB062763C8FA2B3F93D /* NativeEngine.swift in Sources */,
+				69A591F2BDE4941B391C102F4C26B115 /* Security.swift in Sources */,
+				DF9BE4B3E95B007977780C9EFDA3EFBE /* Server.swift in Sources */,
+				3A655D6817E99F062266BB601B0EEEDF /* Starscream-dummy.m in Sources */,
+				046AC7AA224C78A31C0A8FACB11D2D28 /* StringHTTPHandler.swift in Sources */,
+				6C0DACBE00A34619DEDB9A65CB959BA5 /* TCPTransport.swift in Sources */,
+				4A3B1BE129FDA231AC217E1C6DB2B8C8 /* Transport.swift in Sources */,
+				B44349C69B2C0AF407B678B20DC9CB80 /* WebSocket.swift in Sources */,
+				3F3E9C6FF4BCB6F4FF18D9121CC3E42F /* WebSocketServer.swift in Sources */,
+				FA2A3CCAE01CF0108D2FDB7C8108B988 /* WSCompression.swift in Sources */,
+				BB056B9351B1BE41C2703393F69623DD /* WSEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB400D12C7F4A1C133ADAA8A59A4A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CC76685864ECC1EBF206B8628BE109 /* MJPEGStreamLib.swift in Sources */,
+				859BBEBC7986C6F4C95F06746B146558 /* MJPEGStreamLib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D834DE9E54E6D8D6989DBCF2866DEF71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F558ED3638FE1B856D1101FB00DD28B7 /* Pods-My RC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		098ECD366BF8A7FE92ABA0CE2478F1A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LMGaugeViewSwift;
+			target = B6D06EDE60A4BBB0787EF755AE979C4E /* LMGaugeViewSwift */;
+			targetProxy = 81FA1E986CF747EDA48A3D46FA86A902 /* PBXContainerItemProxy */;
+		};
+		18985B301EA4AB4EF5609DFD1F6FAD71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJPEGStreamLib;
+			target = 731F99B1CEA7FFDEF9365D619476502A /* MJPEGStreamLib */;
+			targetProxy = 5839089A5D7F77BA952D23EEC33C6301 /* PBXContainerItemProxy */;
+		};
+		B504CAFB6FE150C2423326707079B0B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDJoystick;
+			target = 500F9357C2C959E2A859291B64320554 /* CDJoystick */;
+			targetProxy = BDFEBCDB966CC9AED9912236DC0ACEF5 /* PBXContainerItemProxy */;
+		};
+		BFB0B87E00D27B02E6B77E18A5CF9627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 76EB14D80B022C0534DB3690F328973E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04C66D850410870C67485B514B1FE610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 545F30EDE73C3082ABEFCA3B58952CA0 /* Pods-My RC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-My RC/Pods-My RC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-My RC/Pods-My RC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6408E211CE48C89B2802E933D8986569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195C39BE8108999D12B2ADE23B1B58A2 /* LMGaugeViewSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LMGaugeViewSwift/LMGaugeViewSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LMGaugeViewSwift/LMGaugeViewSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LMGaugeViewSwift/LMGaugeViewSwift.modulemap";
+				PRODUCT_MODULE_NAME = LMGaugeViewSwift;
+				PRODUCT_NAME = LMGaugeViewSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6859091C7E555FA2A6A2EB04730B89C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7457087F11827CC608B2488FF7509FE /* CDJoystick.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDJoystick/CDJoystick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDJoystick/CDJoystick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CDJoystick/CDJoystick.modulemap";
+				PRODUCT_MODULE_NAME = CDJoystick;
+				PRODUCT_NAME = CDJoystick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7970CB570F1BED87C90167425401AD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25786F63DAFB36FEE16EF7734CA9D179 /* MJPEGStreamLib.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJPEGStreamLib/MJPEGStreamLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJPEGStreamLib/MJPEGStreamLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MJPEGStreamLib/MJPEGStreamLib.modulemap";
+				PRODUCT_MODULE_NAME = MJPEGStreamLib;
+				PRODUCT_NAME = MJPEGStreamLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88BD8B34B8B949B3E82CD1ECE0A23C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07CF7AFE4EB5C5EF977E63E560A6770 /* MJPEGStreamLib.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJPEGStreamLib/MJPEGStreamLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJPEGStreamLib/MJPEGStreamLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MJPEGStreamLib/MJPEGStreamLib.modulemap";
+				PRODUCT_MODULE_NAME = MJPEGStreamLib;
+				PRODUCT_NAME = MJPEGStreamLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89DDD25DB9130670FEDC5E0AD0F46AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526F2285E5F9F692B659A2365BCC17E1 /* Starscream.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4E961E4B07B822A561DAB4FDC7BFD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF5EF2A5E75A5EE8C26D7224A0D83BF /* LMGaugeViewSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LMGaugeViewSwift/LMGaugeViewSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LMGaugeViewSwift/LMGaugeViewSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LMGaugeViewSwift/LMGaugeViewSwift.modulemap";
+				PRODUCT_MODULE_NAME = LMGaugeViewSwift;
+				PRODUCT_NAME = LMGaugeViewSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC66474D42F4DE32770AC3115C19B7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23641BE9A040A0162BA1EAB4CB1E9368 /* Starscream.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4DBFDAD5A151B87AA9087C49A1CCECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B8C4805F612C9D1BD62DCDC9422C29 /* Pods-My RC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-My RC/Pods-My RC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-My RC/Pods-My RC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB0BA22C2A54BE9C5AC3DD3EF9E02F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA001ADB976D660521B622AC559E50AA /* CDJoystick.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDJoystick/CDJoystick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDJoystick/CDJoystick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CDJoystick/CDJoystick.modulemap";
+				PRODUCT_MODULE_NAME = CDJoystick;
+				PRODUCT_NAME = CDJoystick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E342B11DDD91D2A8D5CEC382A58F29D /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DDD25DB9130670FEDC5E0AD0F46AE7 /* Debug */,
+				CC66474D42F4DE32770AC3115C19B7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D07BEEA4F7118071AE0833D09179419 /* Build configuration list for PBXNativeTarget "Pods-My RC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C66D850410870C67485B514B1FE610 /* Debug */,
+				E4DBFDAD5A151B87AA9087C49A1CCECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93CF2754778186035CFF8B1FC7545F5C /* Build configuration list for PBXNativeTarget "MJPEGStreamLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88BD8B34B8B949B3E82CD1ECE0A23C90 /* Debug */,
+				7970CB570F1BED87C90167425401AD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7F9D8CC87D00507312C15381164A60 /* Build configuration list for PBXNativeTarget "LMGaugeViewSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6408E211CE48C89B2802E933D8986569 /* Debug */,
+				A4E961E4B07B822A561DAB4FDC7BFD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41C277AF9F4423091DD9F5D3E7ACADB /* Build configuration list for PBXNativeTarget "CDJoystick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0BA22C2A54BE9C5AC3DD3EF9E02F7F /* Debug */,
+				6859091C7E555FA2A6A2EB04730B89C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
