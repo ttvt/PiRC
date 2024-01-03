@@ -44,9 +44,7 @@ extension FoundationSecurity: CertificatePinning {
             return
         }
         
-        if let validateDomain = domain {
-            SecTrustSetPolicies(trust, SecPolicyCreateSSL(true, validateDomain as NSString?))
-        }
+        SecTrustSetPolicies(trust, SecPolicyCreateSSL(true, domain as NSString?))
         
         handleSecurityTrust(trust: trust, completion: completion)
     }
@@ -65,8 +63,8 @@ extension FoundationSecurity: CertificatePinning {
     }
     
     private func handleOldSecurityTrust(trust: SecTrust, completion: ((PinningState) -> ())) {
-        var result: SecTrustResultType = .invalid
-        SecTrustGetTrustResult( trust, &result)
+        var result: SecTrustResultType = .unspecified
+        SecTrustEvaluate(trust, &result)
         if result == .unspecified || result == .proceed {
             completion(.success)
         } else {

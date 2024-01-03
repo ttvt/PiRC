@@ -16,6 +16,7 @@ import LMGaugeViewSwift
 
 
 class LiveViewController: UIViewController, WebSocketDelegate {
+    
     @IBOutlet var videoView: UIImageView!
     @IBOutlet var Steer: UISlider!
     @IBOutlet var imgConnection: UIImageView!
@@ -103,7 +104,7 @@ class LiveViewController: UIViewController, WebSocketDelegate {
         }
     }
     
-    func didReceive(event: WebSocketEvent, client: WebSocket) {
+    func didReceive(event: Starscream.WebSocketEvent, client: Starscream.WebSocketClient) {
         switch event {
         case .connected(_):
             isConnected = true
@@ -145,6 +146,11 @@ class LiveViewController: UIViewController, WebSocketDelegate {
         case .error(_):
             isConnected = false
         DisconnectHandler()
+        case .peerClosed:
+            isConnected = false
+            DisconnectHandler()
+            //motion.stopDeviceMotionUpdates()
+            print("Websocket canceled")
         }
     }
     
