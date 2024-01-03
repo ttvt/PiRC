@@ -111,7 +111,7 @@
 		65F2DE76D5518C1C8C1BB4499E502929 /* Framer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Framer.swift; path = Sources/Framer/Framer.swift; sourceTree = "<group>"; };
 		705315C084B8D550B6A316603EBF7D23 /* Pods-My RC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-My RC"; path = Pods_My_RC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73F3F543413CBFBA3A2C06998670DD5C /* LMGaugeViewSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMGaugeViewSwift; path = LMGaugeViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F3F543413CBFBA3A2C06998670DD5C /* LMGaugeViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LMGaugeViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		748C89DF31F59068356DBA12CDE5D54A /* StringHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringHTTPHandler.swift; path = Sources/Framer/StringHTTPHandler.swift; sourceTree = "<group>"; };
 		76CDF32E9262B4D9A8650BC6850A67EE /* LMGaugeViewSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LMGaugeViewSwift.modulemap; sourceTree = "<group>"; };
 		7859F1E676A4C614FC72887C73035512 /* Pods-My RC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-My RC-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -121,11 +121,11 @@
 		7FA1F3D7BF35467D9EA47C0F395B64E7 /* FoundationHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPHandler.swift; path = Sources/Framer/FoundationHTTPHandler.swift; sourceTree = "<group>"; };
 		7FC98E127B51A607B580F75AEBFC20CB /* LMGaugeViewSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LMGaugeViewSwift-dummy.m"; sourceTree = "<group>"; };
 		83AAC43A30B48B59E884E61D9BD161F0 /* MJPEGStreamLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJPEGStreamLib-prefix.pch"; sourceTree = "<group>"; };
-		891B2270823847ED23F2ECFC28F935EC /* Starscream */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E61CC65279611E74313E23B0E50BEAB /* Pods-My RC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-My RC-Info.plist"; sourceTree = "<group>"; };
 		917539EF7A9B79B49747B4F850EC487F /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
 		94F781F415FA1C4934AC86031DB6EAF0 /* CDJoystick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDJoystick-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E411419190D997D406888A05112AB26 /* FoundationSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationSecurity.swift; path = Sources/Security/FoundationSecurity.swift; sourceTree = "<group>"; };
 		9F3C8015C73777663A8CFEF122D8C366 /* CDJoystick-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CDJoystick-Info.plist"; sourceTree = "<group>"; };
 		A403D369935DA090978650D3BD31AE86 /* Pods-My RC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-My RC-frameworks.sh"; sourceTree = "<group>"; };
@@ -240,7 +240,6 @@
 				0605C96D2F772E451D5263A5FD2F4C8B /* WSEngine.swift */,
 				61AB920A54136C0157648D5834598DC2 /* Support Files */,
 			);
-			name = Starscream;
 			path = Starscream;
 			sourceTree = "<group>";
 		};
@@ -250,7 +249,6 @@
 				2C89E35083C00C0F01E3546623BF2188 /* GaugeView.swift */,
 				1D745609F6177A25D14E6492754A31B8 /* Support Files */,
 			);
-			name = LMGaugeViewSwift;
 			path = LMGaugeViewSwift;
 			sourceTree = "<group>";
 		};
@@ -298,7 +296,6 @@
 				5D790F03D32B2282DCB61E6A966B3F9F /* CDJoystick.swift */,
 				5673FFE0C698667F24F2DBCD228AF40A /* Support Files */,
 			);
-			name = CDJoystick;
 			path = CDJoystick;
 			sourceTree = "<group>";
 		};
@@ -334,7 +331,6 @@
 				F2BEF0F2A064B2AF19239AEEA8295810 /* MJPEGStreamLib.swift */,
 				C29A0B9DA32937022A36B1449071E8A3 /* Support Files */,
 			);
-			name = MJPEGStreamLib;
 			path = MJPEGStreamLib;
 			sourceTree = "<group>";
 		};
@@ -378,10 +374,10 @@
 			isa = PBXGroup;
 			children = (
 				186BAB931899A3042030707A0DD455CF /* CDJoystick */,
-				73F3F543413CBFBA3A2C06998670DD5C /* LMGaugeViewSwift */,
+				73F3F543413CBFBA3A2C06998670DD5C /* LMGaugeViewSwift.framework */,
 				23A1241D7D1E1606CEF5607D7999A944 /* MJPEGStreamLib */,
 				705315C084B8D550B6A316603EBF7D23 /* Pods-My RC */,
-				891B2270823847ED23F2ECFC28F935EC /* Starscream */,
+				891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -483,7 +479,7 @@
 			);
 			name = Starscream;
 			productName = Starscream;
-			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream */;
+			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B6D06EDE60A4BBB0787EF755AE979C4E /* LMGaugeViewSwift */ = {
@@ -501,7 +497,7 @@
 			);
 			name = LMGaugeViewSwift;
 			productName = LMGaugeViewSwift;
-			productReference = 73F3F543413CBFBA3A2C06998670DD5C /* LMGaugeViewSwift */;
+			productReference = 73F3F543413CBFBA3A2C06998670DD5C /* LMGaugeViewSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C6E8107857F284D407851F4796E19F4A /* Pods-My RC */ = {
@@ -869,7 +865,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LMGaugeViewSwift/LMGaugeViewSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LMGaugeViewSwift/LMGaugeViewSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1007,7 +1003,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1041,7 +1037,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LMGaugeViewSwift/LMGaugeViewSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LMGaugeViewSwift/LMGaugeViewSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1076,7 +1072,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
