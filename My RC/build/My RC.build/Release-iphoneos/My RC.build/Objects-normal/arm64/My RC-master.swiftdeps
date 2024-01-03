@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "45256673a87df4efba5ac0d72133963571353a8287ad5b4af06b1af4c836237e"
+build_start_time: [1680943742, 83873000]
+build_end_time: [1680943742, 108801000]
+inputs:
+  "/Users/ttvt/pirc/My RC/My RC/AppDelegate.swift": !dirty [1676442064, 607747277]
+  "/Users/ttvt/pirc/My RC/My RC/LiveViewController.swift": !dirty [1676442064, 625165708]
+  "/Users/ttvt/pirc/My RC/My RC/MotionObservable.swift": !dirty [1676442064, 625401990]
