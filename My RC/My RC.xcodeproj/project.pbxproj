@@ -392,11 +392,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = ASBTCDDXP5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "My RC/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Apple Carplay";
+				INFOPLIST_KEY_CFBundleDisplayName = "Matter Carplay";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,7 +404,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattervn.myrc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattervn.carplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "";
 				SWIFT_VERSION = 5.0;
@@ -418,11 +418,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = ASBTCDDXP5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "My RC/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Apple Carplay";
+				INFOPLIST_KEY_CFBundleDisplayName = "Matter Carplay";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -430,7 +430,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mattervn.myrc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattervn.carplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
