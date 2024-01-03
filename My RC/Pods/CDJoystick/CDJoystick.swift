@@ -61,7 +61,7 @@ public class CDJoystick: UIView {
 
     private func setup() {
         displayLink = CADisplayLink(target: self, selector: #selector(listen))
-        displayLink?.add(to: .current, forMode: RunLoop.Mode.commonModes)
+        displayLink?.add(to: .current, forMode: RunLoop.Mode.common)
     }
 
     @objc public func listen() {
@@ -85,7 +85,7 @@ public class CDJoystick: UIView {
         stickView.layer.cornerRadius = stickSize.width / 2
 
         if let superview = stickView.superview {
-            superview.bringSubview(toFront: stickView)
+            superview.bringSubviewToFront(stickView)
         } else {
             addSubview(stickView)
         }
